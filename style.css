@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: auto;
+}
+.container{
+    background-color: rgba(177, 123, 227, 0.843);
+}
+.header{
+    color: white;
+    height: 100px;
+    display: flex;
+}
+.calculator{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-shadow: 1px 1px 5px;
+    width: 400px;
+    height: 300px;
+}
+button{
+    font-size: 17px;
+}
+
+#result{
+    text-align: center;
+}
